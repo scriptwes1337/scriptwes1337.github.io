@@ -1,57 +1,66 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
-}
+  title: "Wellesley's Portfolio",
+  description:
+    "Hello 👋🏻 I'm Wellesley. I'm a software developer based in Singapore."
+};
 
 export const hero = {
-  title: "Hey there! I'm LeBron James.",
-  desc: "I'm a web developer and designer building things people love."
+  title: `Hello 👋🏻 I'm Wellesley.`,
+  desc: "I'm a software developer based in Singapore 🇸🇬."
 };
 
 export const projects = {
-  title: 'My Projects',
-  desc: "Here are some of my favorite projects that I've worked on.",
+  title: 'My Projects 🔥',
+  desc: "A showcase of stuff I've built.",
   projects: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
-      github: ''
+      title: 'TaskFlow',
+      description: 'Full stack task tracker app',
+      link: 'https://taskflow-to-do-app.onrender.com/',
+      github: 'https://github.com/scriptwes1337/TaskFlow'
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
-    },
-    {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
+      title: 'astragram',
+      description: 'Frontend astronomy photo viewing web app',
+      link: 'https://scriptwes1337.github.io/astragram/',
+      github: 'https://github.com/scriptwes1337/astragram'
     }
   ]
 };
 
 export const stack = {
-  title: 'My Stack',
-  stack: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'Typescript',
-    'React',
-    'NextJS',
-    'TailwindCSS',
-    'Firebase',
-    'Git'
-  ]
+  language: {
+    title: 'Programming Languages 💎',
+    stack: ['Javascript', 'Python']
+  },
+  frontend: {
+    title: 'Frontend Stack ✨',
+    stack: [
+      'React',
+      'Vite',
+      'Bootstrap',
+      'TailwindCSS',
+      'daisyUI',
+      'Playwright'
+    ]
+  },
+  backend: {
+    title: 'Backend Stack ⚙️',
+    stack: [
+      'Node',
+      'ExpressJS',
+      'MongoDB',
+      'Mongoose',
+      'Node:Test',
+      'Node:Assert',
+      'Supertest'
+    ]
+  }
 };
 
 export const contact = {
-  title: 'Contact Me',
-  email: 'lebron@gmail.com',
-  github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  title: 'Contact Me 🤗',
+  email: 'scriptwes@gmail.com',
+  github: 'scriptwes1337',
+  linkedin: 'scriptwes'
 };

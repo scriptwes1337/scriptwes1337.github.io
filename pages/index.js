@@ -2,8 +2,10 @@ import Contact from '@/components/Contact';
 import Head from 'next/head'
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
-import Stack from '@/components/Stack';
 import { meta } from '@/data/config';
+import FrontendStack from '@/components/FrontendStack';
+import LanguageStack from '@/components/LanguageStack';
+import BackendStack from '@/components/BackendStack';
 
 export default function Index() {
   return (
@@ -15,7 +17,9 @@ export default function Index() {
         <Hero />
         <div className="p-0 space-y-10">
           <Projects />
-          <Stack />
+          <LanguageStack />
+          <FrontendStack />
+          <BackendStack />
           <Contact />
         </div>
       </div>
