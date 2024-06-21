@@ -6,6 +6,7 @@ import { meta } from '@/data/config';
 import FrontendStack from '@/components/FrontendStack';
 import LanguageStack from '@/components/LanguageStack';
 import BackendStack from '@/components/BackendStack';
+import TestingAndAutomationStack from '@/components/TestingAndAutomationStack';
 
 export default function Index() {
   return (
@@ -20,6 +21,7 @@ export default function Index() {
           <LanguageStack />
           <FrontendStack />
           <BackendStack />
+          <TestingAndAutomationStack />
           <Contact />
         </div>
       </div>

@@ -31,30 +31,19 @@ export const projects = {
 export const stack = {
   language: {
     title: 'Programming Languages 💎',
-    stack: ['Javascript', 'Python']
+    stack: ['Javascript']
   },
   frontend: {
     title: 'Frontend Stack ✨',
-    stack: [
-      'React',
-      'Vite',
-      'Bootstrap',
-      'TailwindCSS',
-      'daisyUI',
-      'Playwright'
-    ]
+    stack: ['React (Vite)', 'Bootstrap', 'TailwindCSS (daisyUI)']
   },
   backend: {
     title: 'Backend Stack ⚙️',
-    stack: [
-      'Node',
-      'ExpressJS',
-      'MongoDB',
-      'Mongoose',
-      'Node:Test',
-      'Node:Assert',
-      'Supertest'
-    ]
+    stack: ['Node', 'ExpressJS', 'MongoDB', 'Mongoose']
+  },
+  testingAndAutomation: {
+    title: 'Testing & Automation Stack 🧪',
+    stack: ["Node:Test/Assert", "Playwright"]
   }
 };
 
