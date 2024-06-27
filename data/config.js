@@ -35,15 +35,15 @@ export const stack = {
   },
   frontend: {
     title: 'Frontend Stack ✨',
-    stack: ['React (Vite)', 'Bootstrap', 'TailwindCSS (daisyUI)']
+    stack: ['React', 'Bootstrap', 'TailwindCSS']
   },
   backend: {
     title: 'Backend Stack ⚙️',
-    stack: ['Node', 'ExpressJS', 'MongoDB', 'Mongoose']
+    stack: ['Node', 'ExpressJS', 'MongoDB']
   },
   testingAndAutomation: {
     title: 'Testing & Automation Stack 🧪',
-    stack: ["Node:Test/Assert", "Playwright"]
+    stack: ["Playwright"]
   }
 };
 
